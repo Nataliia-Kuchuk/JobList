@@ -9,7 +9,7 @@ const RoutesPage = () => {
   return (
     <Suspense fallback={<Loader />}>
       <Routes>
-        <Route path="/" element={<JobList />} />
+        <Route path="/JobList" element={<JobList />} />
         <Route path="/:id" element={<Detailed />} />
       </Routes>
     </Suspense>
